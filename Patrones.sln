@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.OpenGL", "Patrones.OpenGL\Patrones.OpenGL.csproj", "{7A285A08-54B5-4F5F-9B3D-7C52BDCBDF8A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Patrones.Shared", "Patrones.Shared\Patrones.Shared.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A285A08-54B5-4F5F-9B3D-7C52BDCBDF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A285A08-54B5-4F5F-9B3D-7C52BDCBDF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A285A08-54B5-4F5F-9B3D-7C52BDCBDF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A285A08-54B5-4F5F-9B3D-7C52BDCBDF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99569E34-DBEC-4A8E-A4A4-A37DD773A745}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Patrones.Shared\Patrones.Shared.projitems*{7a285a08-54b5-4f5f-9b3d-7c52bdcbdf8a}*SharedItemsImports = 5
+		Patrones.Shared\Patrones.Shared.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
